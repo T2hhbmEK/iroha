@@ -1,8 +1,28 @@
 {
   "name": "iroha",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": {},
+  "main": "src/index.jsx",
+  "repository": {
+    "type": "git",
+    "url": "crucifyml/iroha"
+  },
   "author": "crucifyml <i@crucifyml.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
 }
